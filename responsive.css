@@ -1,0 +1,57 @@
+@media (max-width: 1000px) {
+	.header-logo {
+		padding-top: 15px;
+	}
+
+	.menu-icon {
+		float: right;
+    font-size: 35px;
+    padding-top: 30px;
+		display: block !important;
+	}
+	
+	.header-list, .header-right {
+		display: none;
+	}
+
+	.yamashita h1 {
+		font-size: 45px;
+	}
+	
+	.yamashita p {
+		font-size: 36px;
+	}
+	
+	.project img {
+		width: 100%;
+	}
+
+	.project p {
+		font-size: 22px;
+	}
+
+	.sponsor h2 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+  .btn-wrapper a {
+    width: 33%;
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 25px;
+  }
+
+  .btn-wrapper a {
+    width: 44%;
+  }
+}

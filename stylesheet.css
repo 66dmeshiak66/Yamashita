@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body, h1 {
   margin: 0;
   font-family: serif;
@@ -12,8 +16,10 @@ a {
 }
 
 .container {
-  width: 1300px;
+  max-width: 1366px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 25px;
 }
 
 header {
@@ -32,6 +38,10 @@ header {
   font-family: 'Parisienne', cursive;
   float: left;
   padding-right: 30px;
+}
+
+.menu-icon {
+  display: none !important;
 }
 
 .header-list li {
@@ -221,7 +231,7 @@ textarea {
 
 footer {
   background-color: #008080;
-  height: 125px;
+  height: 155px;
   padding-top: 30px;
 }
 
