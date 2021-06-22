@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 	.header-logo {
 		padding-top: 15px;
 	}
@@ -19,7 +19,7 @@
 	}
 	
 	.yamashita p {
-		font-size: 36px;
+		font-size: 38px;
 	}
 	
 	.project img {
@@ -37,12 +37,21 @@
 
 @media (max-width: 768px) {
   .btn-wrapper a {
-    width: 33%;
+    width: 50%;
     margin-bottom: 7px;
+  }
+
+  .yamashita p {
+    font-size: 28px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
+  .header-logo {
+    font-size: 30px;
+    padding-top: 22px;
+  }
+  
   .top-wrapper h1 {
     font-size: 25px;
   }
@@ -52,6 +61,82 @@
   }
 
   .btn-wrapper a {
-    width: 50%;
+    width: 100%;
+  }
+
+  .yamashita h1 {
+    font-size: 33px;
+  }
+
+  .yamashita p {
+    font-size: 19px;
+  }
+
+  .project h1 {
+    font-size: 30px;
+  }
+
+  .sponsor h2 {
+    font-size: 18px;
+  }
+
+  input, textarea {
+    width: 375px;
+  }
+
+  .footer-logo {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .yamashita p {
+    font-size: 20px;
+  }
+
+  .project h1 {
+    font-size: 25px;
+  }
+
+  .project p {
+    font-size: 20px;
+  }
+
+  .sponsor h2 {
+    font-size: 16px;
+  }
+  
+  input, textarea {
+    width: 325px;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-logo {
+    font-size: 27px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 28px;
+  }
+  
+  .top-wrapper h2 {
+    font-size: 21px;
+  }
+  
+  .project h1 {
+    font-size: 22px;
+  }
+  
+  input, textarea {
+    width: 270px;
+  }
+
+  .footer-logo {
+    font-size: 17px;
   }
 }
